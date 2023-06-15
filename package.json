@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
     "prepare": "husky install",
     "dev": "webpack --mode development",
@@ -56,5 +55,6 @@
   },
   "dependencies": {
     "run": "^1.4.0"
-  }
+  },
+  "type": "module"
 }
